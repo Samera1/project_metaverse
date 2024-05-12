@@ -16,25 +16,20 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| Sobre mí" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className="font-extrabold text-white">
-          madness of the metaverse
+        <span className="font-extrabold text-white">¡Saludos! Soy Sebastian,</span> un apasionado creador de productos
+        y experiencias,me he sumergido en el mundo web, comenzando con HTML y CSS, y he evolucionado hacia el{' '}
+        <span className="font-extrabold text-white"> diseño de experiencias completas con UX y UI
         </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        Con una sólida base en marketing digital{' '}
+        <span className="font-extrabold text-white">y growth, </span> actualmente desempeño el rol de coordinador de marketing en una empresa, 
+        donde contribuyo en diversos proyectos. ¡Conéctate conmigo en{' '}
+        <span className="font-extrabold text-white">Linkedin</span>  para explorar más sobre mi trayectoria y colaboraciones!
       </motion.p>
 
       <motion.img
